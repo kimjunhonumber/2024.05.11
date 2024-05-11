@@ -1,0 +1,9 @@
+wikipedia==1.4.0
+Pillow
+google.generativeai
+streamlit
+openai
+langchain-openai  # 가상의 버전, 실제 사용 버전 확인 필요
+langchain-core    # 가상의 버전, 실제 사용 버전 확인 필요
+langchain-community  # 가상의 버전, 실제 사용 버전 확인 필요
+pandas
