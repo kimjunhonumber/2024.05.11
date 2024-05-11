@@ -15,7 +15,6 @@ st.title("🚀ChatGPT")
 
 # API KEY 설정
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-llm = ChatOpenAI(assistant_id="asst_5SiKVdqD5bk8Y0K6SivNqmg5")
 
 
 
