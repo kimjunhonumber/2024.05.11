@@ -2,6 +2,7 @@ import streamlit as st
 from utils import print_messages, StreamingHandler
 from langchain_core.messages import ChatMessage
 from langchain_openai import ChatOpenAI
+from langchain_core.callbacks.base import BaseCallbackHandler
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.chat_message_histories import ChatMessageHistory
